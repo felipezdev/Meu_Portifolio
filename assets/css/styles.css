@@ -335,6 +335,16 @@ body {
         padding: 80px 40px;
         transition: all 0.4s ease;
     }
+    .projeto-links {
+        flex-direction: column; /* Organiza os botões em coluna */
+        gap: 0.8rem; /* Reduz o espaço entre os botões */
+    }
+
+    .projeto-links .btn-gradient {
+        width: 100%; /* Faz com que os botões ocupem 100% da largura do contêiner */
+        justify-content:center; /* Centraliza o conteúdo (texto e ícone) do botão */
+        font-size: 0.9rem; /* Diminui o tamanho da fonte do botão */
+    }
 
     .nav-menu.active {
         right: 0;
@@ -1220,9 +1230,7 @@ body {
         padding: var(--spacing-md);
     }
 
-    .nav-menu {
-        display: none;
-    }
+   
 
     .hero h2 {
         font-size: 2rem;
